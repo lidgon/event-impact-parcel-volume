@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Data and outputs
+reports/figures/*.png
+reports/*.csv
+!reports/figures/.gitkeep
+data/raw/*.csv
+!data/raw/.gitkeep
